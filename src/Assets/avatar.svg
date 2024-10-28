@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <title>Female Cool Avatar</title>
+    <desc>A cool, stylized female avatar with sunglasses and a modern hairstyle.</desc>
+    
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="100" fill="#FFD5E5" />
+    
+    <!-- Neck and Shoulders -->
+    <path d="M60,160 Q100,180 140,160 Q120,200 80,200 Q60,160 60,160" fill="#FFE0B2" />
+
+    <!-- Face -->
+    <circle cx="100" cy="80" r="40" fill="#FFDAB9" />
+
+    <!-- Hair (Long and Flowing) -->
+    <path d="M60,30 Q30,80 60,130 Q50,90 65,60 Q50,50 70,40" fill="#8B4513" />
+    <path d="M140,30 Q170,80 140,130 Q150,90 135,60 Q150,50 130,40" fill="#8B4513" />
+    <path d="M65,30 Q90,10 135,30 Q115,50 85,50 Q75,40 65,30" fill="#A0522D" />
+    
+    <!-- Sunglasses -->
+    <rect x="70" y="65" width="25" height="15" rx="3" fill="#333" />
+    <rect x="105" y="65" width="25" height="15" rx="3" fill="#333" />
+    <rect x="95" y="68" width="10" height="3" fill="#333" />
+    
+    <!-- Smile -->
+    <path d="M85,95 Q100,110 115,95" stroke="#333" stroke-width="2" fill="none" />
+
+    <!-- Shirt -->
+    <path d="M60,130 Q100,110 140,130 Q130,180 70,180 Q60,130 60,130" fill="#4CAF50" />
+</svg>
+
