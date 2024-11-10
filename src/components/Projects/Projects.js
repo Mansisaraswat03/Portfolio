@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-
+import projectData from "../../Assets/data/data";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -15,16 +15,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={""}
-              isBlog={false}
-              title=""
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
+          {projectData.map((project, index) => {
+            return (
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={project?.imgPath}
+                  isBlog={project?.isBlog}
+                  title={project?.title}
+                  description={project?.description}
+                  ghLink={project?.ghLink}
+                  demoLink={project?.demoLink}
+                />
+              </Col>
+            );
+          })}
         </Row>
       </Container>
     </Container>
